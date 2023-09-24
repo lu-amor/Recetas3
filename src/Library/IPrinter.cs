@@ -13,3 +13,9 @@ namespace Full_GRASP_And_SOLID.Library
         void PrintRecipe(Recipe recipe);
     }
 }
+/* Uso el patrón de polimorfismo, 
+la operación de imprimir la implementan ConsolePrinter y FilePrinter,
+de esta manera no hay que especificar dónde se quiere imprimir, 
+se usa la clase deseada simplemente.
+Esto permite que el código sea reusable y adaptable con mayor facilidad.
+*/
